@@ -46,6 +46,15 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[OP.GG](https://op.gg)**
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
 - **[Lendio](https://lendio.com)**
+## Installation 
+Installation
+Unzip the downloaded archive
+Copy and paste soft-ui-dashboard-laravel-master folder in your projects folder. Rename the folder to your project's name
+In your terminal run composer install
+Copy .env.example to .env and updated the configurations (mainly the database configuration)
+In your terminal run php artisan key:generate
+Run php artisan migrate --seed to create the database tables and seed the roles and users tables
+Run php artisan storage:link to create the storage symlink (if you are using Vagrant with Homestead for development, remember to ssh into your virtual machine and run the command from there).
 
 ## Contributing
 
